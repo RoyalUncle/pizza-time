@@ -16,7 +16,7 @@ services:
   pizza-repo:
     privileged: true
     container_name: pizza-repo-0.1
-    image: urieluvd/laravel-5.4:latest
+    image: hitalos/laravel:latest
     ports:
       - 8000:8000
       - 80:80
